@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stopwatch  " >
+        <h1 id="displayTime">00:00:00</h1>
+        <div class="buttons">
+            <img src="stop.png"onclick="watchStop()"  >
+            <img src="start.png"onclick="watchStart()" id="start">
+            <img src="reset.png" onclick="watchReset()">
+        </div>
+    </div>
+    <input type="button"value="Click me"onclick="msg()">
+
+    <script>
+        // alert("Hello my name is Ayush Kumar")
+        function msg(){
+            let v= prompt("Who are you")
+           
+               alert("I am "+v)
+            
+            // else{
+            //     prompt("Enter your age")
+            // }
+        }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
